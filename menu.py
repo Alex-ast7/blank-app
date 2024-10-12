@@ -2,7 +2,8 @@ import streamlit as st
 
 
 def authenticated_menu():
-    st.sidebar.image("/workspaces/blank-app/лого.png", use_column_width=True)
+    # st.sidebar.image("/workspaces/blank-app/лого.png", use_column_width=True)
+    st.sidebar.image("лого.png", use_column_width=True)
 
     hide_img_fs = '''
     <style>
